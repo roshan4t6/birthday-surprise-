@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.main-page {
+  background: linear-gradient(135deg, #ea4248, #fad0c4);
+  height: 100vh;
+}
+
+.surprise-page {
+  background: linear-gradient(135deg, #d00963, #a6c1ee);
+  height: 100vh;
+}
+
+.gallery-page {
+  background: #d40f92;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cake, .heart {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background: #ff758c;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff7eb3;
+  transform: scale(1.05);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  color: black;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.message-page {
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(251, 3, 3);
+  text-align: center;
+  padding: 20px;
+}
+
+.message-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 600px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
